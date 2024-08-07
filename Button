@@ -1,0 +1,14 @@
+<!-- HTML macro in Confluence -->
+
+<button id="button1">Button 1</button>
+<button id="button2">Button 2</button>
+<div id="displayArea" style="margin-top: 20px;"></div>
+
+<script>
+    document.getElementById("button1").onclick = function() {
+        document.getElementById("displayArea").innerText = "This is the message for Button 1";
+    };
+    document.getElementById("button2").onclick = function() {
+        document.getElementById("displayArea").innerText = "This is the message for Button 2";
+    };
+</script>
